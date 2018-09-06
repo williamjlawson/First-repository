@@ -1,0 +1,48 @@
+body {
+  background-color: #D3D9D2;
+}
+
+.header {
+  text-transform: uppercase;
+}
+
+.toolbar {
+  list-style-type: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+  background-color: #A6DC8F;
+}
+
+.toolbar li {
+  float: left;
+}
+
+.toolbar li a {
+  padding: 4px;
+  text-align: center;
+}
+
+.toolbar li a:hover {
+  background-color: #86D763;
+}
+
+.types {
+  display: flex;
+  flex-row: row wrap;
+  justify-content: center;
+}
+
+.types div {
+  padding: 10px;
+  width: calc(25% - 20px);
+  box-sizing: border box;
+  background-color: white;
+  justify-content: space-between;
+  margin: 10px;
+  border-radius: 25px;
+}
+
+.types div:hover {
+  transform: scale(1.01);
+}
